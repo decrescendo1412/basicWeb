@@ -30,5 +30,3 @@ This repository will be updated regularly with new content and information.
     * You can download materials by right-clicking on the file or folder and selecting "Download."
 * **How to run code:**
     * You can run code by opening the file in a text editor or IDE.
-
-## Additional Resources
