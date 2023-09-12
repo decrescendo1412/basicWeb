@@ -1,0 +1,70 @@
+console.log("hahahahahahahha!HAHAHAHAHAHAHAHA")
+VM318:1 hahahahahahahha!HAHAHAHAHAHAHAHA
+undefined
+console.log("안녕하세요")
+VM384:1 안녕하세요
+undefined
+alert("hello")
+undefined
+confirm("종료하시겠습니까?")
+true
+prompt("당신의이름은")
+'정호준'
+prompt("종료하시겠습니까?(예/아니요)", "예")
+'예'
+name = "정호준"
+'정호준'
+console.log(name + "님 환영합니다.")
+VM812:1 정호준님 환영합니다.
+undefined
+document.write("제 이름은 " + name + "입니다.")
+undefined
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1170:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1170:1
+let age = 23
+undefined
+console.log(name + "님 나이는 " + age + "세 입니다.")
+VM1397:1 정호준님 나이는 23세 입니다.
+undefined
+console.log(`${name}님 나이는 ${age}세 입니다.`)
+VM1551:1 정호준님 나이는 23세 입니다.
+undefined
+let student = {
+    major : "컴퓨터공학부",
+    idNum : 202095088,
+    name : "정호준",
+}
+undefined
+student
+{major: '컴퓨터공학부', idNum: 202095088, name: '정호준'}
+student.name
+'정호준'
+student["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member = {
+    name : "정호준",
+    [id] : 12345
+}
+undefined
+member
+{name: '정호준', Symbol(): 12345}
+member[id]
+12345
+other {
+VM2116:1 Uncaught SyntaxError: Unexpected token '{'
+const other {
+VM2154:1 Uncaught SyntaxError: Missing initializer in const declaration
